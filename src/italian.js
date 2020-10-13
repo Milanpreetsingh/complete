@@ -33,9 +33,7 @@ function Italian(){
         }
         else if(dish == 3){
             return(<Alert severity="success"><p>An antipasto dish, bruschetta has grilled bread topped with 
-                                                veggies, rubbed garlic and tomato mix. A country bread sliced and 
-                                                topped with different toppings - the evergreen tomato-basil and an 
-                                                inventive mushroom-garlic. The classic Italian starter!</p></Alert>) 
+                                                veggies, rubbed garlic and tomato mix. A country bread sliced and topped with different toppings - the evergreen tomato-basil and an inventive mushroom-garlic. The classic Italian starter!</p></Alert>) 
         }
         else{
             return(<div></div>) 

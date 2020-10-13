@@ -1,5 +1,5 @@
-import React,{useState} from "react";
-import { Link ,useHistory} from "react-router-dom";
+import React from "react";
+import { useHistory} from "react-router-dom";
 import Button from '@material-ui/core/Button'
 import './App.css';
 
@@ -14,8 +14,9 @@ return(
         <div className="Card">
            <Button variant="contained" color="secondary" onClick = {()=>{history.push('/indian')}}>Indian</Button><br/><br/>
            <Button variant="contained" color="secondary" onClick = {()=>{history.push('/italian')}}>Italian</Button>
-           
         </div>
+         <br/><br/>
+        <Button variant="contained" color="secondary" onClick = {()=>{history.push('/firebase_recipes')}}>Recipes</Button><br/><br/>
     
     </div>
 )

@@ -7,6 +7,8 @@ import Home1 from './home1.js';
 import Nomatch from './nomatch.js';
 import Indian from './indian.js';
 import Italian from './italian.js';
+import Recipes from './recipes.js';
+import Firebase_Recipes from './firebase_recipes';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path = '/home1'  component = {Home1}/>
         <Route path = '/indian' component = {Indian}/>
         <Route path = '/italian' component = {Italian}/>
+        <Route path = '/recipes' component = {Recipes}/>
+        <Route path = '/firebase_recipes' component = {Firebase_Recipes}/>
         <Route component = {Nomatch}/>
       </Switch>
     </div>

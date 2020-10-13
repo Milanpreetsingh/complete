@@ -1,6 +1,6 @@
 import React from 'react';
-import firebase from 'firebase';
-import { Link ,useHistory} from "react-router-dom";
+import firebase from './utils/firebase';
+import {useHistory} from "react-router-dom";
 import Button from '@material-ui/core/Button'
 import './App.css';
 
@@ -23,6 +23,9 @@ return(
            <Button variant="contained" color="secondary" onClick = {()=>{history.push('/italian')}}>Italian</Button>
            
     </div>
+    <br/><br/>
+    <Button variant="contained" color="secondary" onClick = {()=>{history.push('/firebase_recipes')}}>Recipes</Button><br/><br/>
+    <Button variant="contained" color="secondary" onClick = {()=>{history.push('/recipes')}}>Add Recipes</Button>
     
     </div>
 );
